@@ -1,0 +1,33 @@
+{
+  "exchanges" : [
+    {
+      "id" : "kiki249",
+      "reqPt" : 1000,
+      "reqDt" : "2022-08-03",
+      "userEmail" : "kiki249@naver.com"
+    },
+    {
+      "id" : "kiki240",
+      "reqPt" : 2000,
+      "reqDt" : "2022-08-03",
+      "userEmail" : "kiki249@naver.com"
+    },
+    {
+      "id" : "kiki243",
+      "reqPt" : 3000,
+      "reqDt" : "2022-08-03",
+      "userEmail" : "kiki249@naver.com"
+    }, {
+      "id" : "kiki242",
+      "reqPt" : 4000,
+      "reqDt" : "2022-08-03",
+      "userEmail" : "kiki249@naver.com"
+    },
+    {
+      "id" : "kiki245",
+      "reqPt" : 5000,
+      "reqDt" : "2022-08-03",
+      "userEmail" : "kiki249@naver.com"
+    }
+  ]
+}

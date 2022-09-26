@@ -1,0 +1,15 @@
+깃 브랜치따는법
+
+1. git branch (자기가 만든 브랜치이름)
+
+2. git checkout (자기가 만든 브랜치이름)
+=> 자기가 만든 브랜치로 이동하는 명령어
+
+3. 자기꺼 작업하고 git add ., git commit
+
+4. git checkout master
+=> master 브랜치로 이동
+
+5. git merge (자기가 만든 브랜치이름)
+
+6. git push

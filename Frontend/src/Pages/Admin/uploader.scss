@@ -1,0 +1,21 @@
+.uploader-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .img-wrapper{
+    margin: 0px 0 20px 0;
+    img{
+      width: 500px;
+      height: 500px;
+    }
+  }
+  .upload-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    button{
+      margin: 0 5px;
+    }
+  }
+}

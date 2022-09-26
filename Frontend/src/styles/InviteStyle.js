@@ -1,0 +1,51 @@
+import styled from 'styled-components';
+
+
+
+
+export const Invite = styled.div`display: flex;
+flex-direction: column;
+align-items: center;
+`;
+export const Group63 = styled.div`margin-bottom: 10px;
+padding: 32px 0 0;
+position: relative;
+`;
+export const Num500 = styled.p`height: 100%;
+width: 100%;
+display: flex;
+position: relative;
+color: ${props => props.theme.colors.black2};
+font-family: ${props => props.theme.fonts.sCoreDream16Regular.family};
+font-size: ${props => props.theme.fonts.sCoreDream16Regular.size};
+font-weight: ${props => props.theme.fonts.sCoreDream16Regular.weight};
+line-height: ${props => props.theme.fonts.sCoreDream16Regular.lineHeight};
+`;
+export const Num500Emphasis0 = styled.strong`color: ${props => props.theme.colors.black2};
+font-family: ${props => props.theme.fonts.sCoreDream28Regular.family};
+font-size: ${props => props.theme.fonts.sCoreDream28Regular.size};
+font-weight: ${props => props.theme.fonts.sCoreDream28Regular.weight};
+line-height: ${props => props.theme.fonts.sCoreDream28Regular.lineHeight};
+`;
+export const Num500Emphasis2 = styled.strong`color: ${props => props.theme.colors.black2};
+font-family: ${props => props.theme.fonts.sCoreDream16Regular2.family};
+font-size: ${props => props.theme.fonts.sCoreDream16Regular2.size};
+font-weight: ${props => props.theme.fonts.sCoreDream16Regular2.weight};
+line-height: ${props => props.theme.fonts.sCoreDream16Regular2.lineHeight};
+`;
+export const b  = styled.p`height: 73.77%;
+width: 100%;
+color: ${props => props.theme.colors.black2};
+display: flex;
+position: absolute;
+left: 0;
+top: 0;
+font-family: ${props => props.theme.fonts.sCoreDream28Regular.family};
+font-size: ${props => props.theme.fonts.sCoreDream28Regular.size};
+font-weight: ${props => props.theme.fonts.sCoreDream28Regular.weight};
+line-height: ${props => props.theme.fonts.sCoreDream28Regular.lineHeight};
+`;
+export const HappyBunchPartyOfThree = styled.img`height: 58.75%;
+align-self: stretch;
+object-fit: cover;
+`;

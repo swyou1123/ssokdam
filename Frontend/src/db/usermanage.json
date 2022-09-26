@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": "kiki249",
+      "userPwd": "*******",
+      "userBirthDay": "1993-11-18",
+      "userPoint" : 1000,
+      "userEmail" : "kiki249@naver.com"
+    },
+    {
+      "id": "kiki2492",
+      "userPwd": "*******",
+      "userBirthDay": "1993-11-18",
+      "userPoint" : 1000,
+      "userEmail" : "kiki249@naver.com"
+    },{
+      "id": "kiki2493",
+      "userPwd": "*******",
+      "userBirthDay": "1993-11-18",
+      "userPoint" : 1000,
+      "userEmail" : "kiki249@naver.com"
+    },
+    {
+      "id": "kiki2494",
+      "userPwd": "*******",
+      "userBirthDay": "1993-11-18",
+      "userPoint" : 1000,
+      "userEmail" : "kiki249@naver.com"
+    },
+    {
+      "id": "kiki2491",
+      "userPwd": "*******",
+      "userBirthDay": "1993-11-18",
+      "userPoint" : 1000,
+      "userEmail" : "kiki249@naver.com"
+    },
+    {
+      "id": "kiki2495",
+      "userPwd": "*******",
+      "userBirthDay": "1993-11-18",
+      "userPoint" : 1000,
+      "userEmail" : "kiki249@naver.com"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.button-group {
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+.button {
+    background-color: #00d3ca;
+    color : black;
+    font-weight: bold;
+    flex: 1;
+}

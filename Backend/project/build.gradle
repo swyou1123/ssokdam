@@ -1,0 +1,39 @@
+plugins {
+	id 'org.springframework.boot' version '2.7.1'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'com.ssaft'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = "11"
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+	maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
+	implementation 'com.vaadin.external.google:android-json:0.0.20131108.vaadin1'
+	runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.11.5','io.jsonwebtoken:jjwt-jackson:0.11.5'
+	implementation 'com.github.ulisesbocchio:jasypt-spring-boot-starter:3.0.4'
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	runtimeOnly 'mysql:mysql-connector-java'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'com.github.iamport:iamport-rest-client-java:0.2.14'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

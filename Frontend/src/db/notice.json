@@ -1,0 +1,32 @@
+{
+  "notices": [
+    {
+      "pstSeq": "1",
+      "pstTitle": "하이",
+      "pstCtnt": "",
+      "pstDt" : "",
+      "file": ""
+    },
+    {
+      "pstSeq": "2",
+      "pstTitle": "하이",
+      "pstCtnt": "",
+      "pstDt" : "",
+      "file": {}
+    },
+    {
+      "pstSeq": "3",
+      "pstTitle": "하이",
+      "pstCtnt": "",
+      "pstDt" : "",
+      "file": ""
+    },
+    {
+      "pstSeq": "4",
+      "pstTitle": "하이",
+      "pstCtnt": "",
+      "pstDt" : "",
+      "file": ""
+    }
+  ]
+}
